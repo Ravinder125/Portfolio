@@ -15,7 +15,31 @@ export const PROJECTS = [
         image: project2,
         description: "A Task Manager Website Where you can assign tasks to your employees or team members, track and manage the progress of tasks and employees ",
         technologies: ["HTML", "TailwindCSS", "REACT", "Express", "MongoDB", "Node"]
-    }
+    },
+    {
+        title: "Todo Web App",
+        image: project1,
+        description: "A Person Todo to store your todos for daily tasks",
+        technologies: ["HTML", "TailwindCss", "REACT",],
+    },
+    {
+        title: "Task Manager",
+        image: project2,
+        description: "A Task Manager Website Where you can assign tasks to your employees or team members, track and manage the progress of tasks and employees ",
+        technologies: ["HTML", "TailwindCSS", "REACT", "Express", "MongoDB", "Node"]
+    },
+    {
+        title: "Todo Web App",
+        image: project1,
+        description: "A Person Todo to store your todos for daily tasks",
+        technologies: ["HTML", "TailwindCss", "REACT",],
+    },
+    {
+        title: "Task Manager",
+        image: project2,
+        description: "A Task Manager Website Where you can assign tasks to your employees or team members, track and manage the progress of tasks and employees ",
+        technologies: ["HTML", "TailwindCSS", "REACT", "Express", "MongoDB", "Node"]
+    },
 ]
 
 export const CONTACT = {
