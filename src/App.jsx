@@ -19,7 +19,7 @@ function App() {
         <Technologies />
         <Projects />
         <Experience />
-        <Contact />
+        <Contact/>
       </div>
     </div>
   )
