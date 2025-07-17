@@ -1,44 +1,20 @@
 import project1 from '../assets/project/project-1.jpg'
-import project2 from '../assets/project/project-2.jpg'
-import project3 from '../assets/project/project-3.jpg'
-import project4 from '../assets/project/project-4.jpg'
+import project2 from '../assets/project/project-2.png'
 
 export const PROJECTS = [
     {
         title: "Todo Web App",
+        href: "https://task-manager-njjo.vercel.app/",
         image: project1,
         description: "A Person Todo to store your todos for daily tasks",
-        technologies: ["HTML", "TailwindCss", "REACT",],
-    },
-    {
-        title: "Task Manager",
-        image: project2,
-        description: "A Task Manager Website Where you can assign tasks to your employees or team members, track and manage the progress of tasks and employees ",
-        technologies: ["HTML", "TailwindCSS", "REACT", "Express", "MongoDB", "Node"]
+        technologies: ["HTML", "TailwindCss", "REACT", "MongoDB", "Express", "Node"],
     },
     {
         title: "Todo Web App",
-        image: project1,
-        description: "A Person Todo to store your todos for daily tasks",
-        technologies: ["HTML", "TailwindCss", "REACT",],
-    },
-    {
-        title: "Task Manager",
+        href: "https://react-js-course-pi.vercel.app/",
         image: project2,
-        description: "A Task Manager Website Where you can assign tasks to your employees or team members, track and manage the progress of tasks and employees ",
-        technologies: ["HTML", "TailwindCSS", "REACT", "Express", "MongoDB", "Node"]
-    },
-    {
-        title: "Todo Web App",
-        image: project1,
-        description: "A Person Todo to store your todos for daily tasks",
+        description: "A Person Todo web app to store your daily todos",
         technologies: ["HTML", "TailwindCss", "REACT",],
-    },
-    {
-        title: "Task Manager",
-        image: project2,
-        description: "A Task Manager Website Where you can assign tasks to your employees or team members, track and manage the progress of tasks and employees ",
-        technologies: ["HTML", "TailwindCSS", "REACT", "Express", "MongoDB", "Node"]
     },
 ]
 
