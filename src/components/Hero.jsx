@@ -1,5 +1,6 @@
 import React from 'react'
-import profilePic from '../assets/profile-pic.webp'
+import profilePic from '../assets/profile-pic-1.jpeg'
+import profilePic2 from '../assets/profile-pic-2.webp'
 import { HERO_CONTENT } from '../constants/data'
 import { motion } from 'framer-motion'
 
@@ -27,7 +28,7 @@ const Hero = () => {
                 <div className='order-0 md:order-1 w-full lg:w-1/2'>
                     <div className='flex justify-center lg:p-8'>
                         <motion.img
-                            src={profilePic}
+                            src={profilePic2}
                             alt="Profile picture"
                             className='border border-stone-900 rounded-3xl'
                             width={650}

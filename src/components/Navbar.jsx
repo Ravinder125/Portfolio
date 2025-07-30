@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import logo from '../assets/raviKumarLogo.webp'
+import logo from '../assets/logo.webp'
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa6"
 import { SiLeetcode } from "react-icons/si"
 
