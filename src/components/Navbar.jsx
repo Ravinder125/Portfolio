@@ -6,7 +6,7 @@ import { SiLeetcode } from "react-icons/si"
 const Navbar = () => {
     const navItems = [
         {
-            href: "https://www.linkedin.com/in/ravinder-kumar-683397357/",
+            href: "https://www.linkedin.com/in/ravinder-kumar-5080173a3/",
             label: "LinkeDin",
             icon: <FaLinkedin />
         },
