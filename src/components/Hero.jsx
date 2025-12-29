@@ -1,7 +1,7 @@
 import React from 'react'
 // import profilePic from '../assets/profile-pic-1.jpeg'
 // import profilePic2 from '../assets/profile-pic-2.webp'
-import profile3 from '../assets/profile-black.png'
+import profile3 from '../assets/profile-image.png'
 import { HERO_CONTENT } from '../constants/data'
 import { motion } from 'framer-motion'
 
