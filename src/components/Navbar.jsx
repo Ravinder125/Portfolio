@@ -2,10 +2,7 @@ import { Link } from "react-router-dom"
 import logo from '../assets/logo.webp'
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa6"
 import { SiLeetcode } from "react-icons/si"
-import { HugeiconsIcon } from '@hugeicons/react';
 import { FIVERR_SVG } from '../constants/data'
-
-const fiverSvg = `<a href="https://iconscout.com/icons/fiverr" class="text-underline font-size-sm" target="_blank">Fiverr</a> by <a href="https://iconscout.com/contributors/pixel-icons" class="text-underline font-size-sm" target="_blank">Pixel Icons</a>`
 
 const Navbar = () => {
     const navItems = [
@@ -32,7 +29,7 @@ const Navbar = () => {
         {
             href: "https://www.fiverr.com/this_is_rk/convert-figma-to-html-react-or-react-with-api",
             label: "Fiverr",
-            icon: <span dangerouslySetInnerHTML={{ __html: FIVERR_SVG }} />
+            icon: <div className="hover:text-gray-100"><span dangerouslySetInnerHTML={{ __html: FIVERR_SVG }} /></div>
         },
     ]
     return (
@@ -50,7 +47,7 @@ const Navbar = () => {
                             to={item.href}
                             target="_blank"
                             aria-label={item.label}>
-                            <span className="hidden sm:block">{item.label}</span>
+                            <span className="hidden md:block">{item.label}</span>
                             {item.icon} {" "}
                         </Link>
                     </div>
