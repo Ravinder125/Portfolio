@@ -42,6 +42,13 @@ const Projects = () => {
                             <p className="mb-4 text-stone-400">
                                 {project.description}
                             </p>
+                            {project.pointList?.length !== 0 && (
+                                <ul className="bg-black/30 p-5 rounded-lg text-sm list-disc mb-3 px-8 ">
+                                    {project.pointList.map(point => {
+                                        return <li className="mt-2">{point}</li>
+                                    })}
+                                </ul>
+                            )}
                             <div className="flex flex-wrap gap-2">
                                 {project.technologies.map((tech, idx) => (
                                     <span key={idx} className="rounded bg-stone-900 p-2 tet-sm font-medium text-stone-300">

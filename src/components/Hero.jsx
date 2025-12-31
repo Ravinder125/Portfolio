@@ -26,7 +26,7 @@ const Hero = () => {
     return (
         <div className='pb-4 lg:mb-36'>
             <div className='flex flex-wrap lg:flex-row-revers'>
-                <div className='order-0 md:order-1 w-full lg:w-1/2'>
+                <div className='order-0 sm:order-0 w-full lg:w-1/2'>
                     <div className='flex justify-center lg:p-8'>
                         <motion.img
                             src={profile3}
@@ -40,19 +40,45 @@ const Hero = () => {
                         />
                     </div>
                 </div>
-                <div className='order-1 md:order-0 w-full lg:w-1/2'>
+                <div className='order-1 sm:order-1 w-full lg:w-1/2'>
                     <motion.div
                         initial="hidden"
                         animate="visible"
                         variants={containerVariants}
                         className='flex flex-col items-center lg:items-start mt-10'
                     >
-                        <motion.h2 variants={childVariants} className='pb-2 text-4xl font-semibold  tracking-tighter lg:text-8xl'>
-                            Ravinder Kumar
+                        <motion.h2
+                            variants={childVariants}
+                            className='pb-2 text-4xl font-semibold tracking-tighter lg:text-8xl name-animate'
+                        >
+                            <motion.span
+                                initial={{ opacity: 0, x: -50 }}
+                                animate={{ opacity: 1, x: 0 }}
+                                transition={{ duration: 0.6, delay: 0.2 }}
+                                className="inline-block"
+                            >
+                                R
+                            </motion.span>
+                            <motion.span
+                                initial={{ opacity: 0, x: -50 }}
+                                animate={{ opacity: 1, x: 0 }}
+                                transition={{ duration: 0.6, delay: 0.5 }}
+                                className="inline-block"
+                            >
+                                avinder&nbsp;
+                            </motion.span>
+                            <motion.span
+                                initial={{ opacity: 0, x: -50 }}
+                                animate={{ opacity: 1, x: 0 }}
+                                transition={{ duration: 0.6, delay: 0.8 }}
+                                className="inline-block"
+                            >
+                                kumar
+                            </motion.span>
                         </motion.h2>
                         <motion.span
                             variants={childVariants}
-                            className='bg-gradient-to-r from-stone-300 to-stone-500 bg-clip-text text-4xl tracking-tight text-transparent my-2'
+                            className='bg-gradient-to-r from-stone-300 to-stone-500 bg-clip-text text-3xl sm:text-4xl tracking-tight text-transparent my-2'
                         >
                             Full Stack Developer
                         </motion.span>

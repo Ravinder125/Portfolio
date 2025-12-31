@@ -16,4 +16,20 @@
   .container {
     @apply max-w-[1400px]
   }
+
+  .name-animate {
+    animation: n-animate 2s steps(15, end) forwards;
+  }
+
+
+}
+
+@keyframes n-animate {
+  from {
+    content: "R";
+  }
+
+  to {
+    content: "Ravinder Kumar";
+  }
 }

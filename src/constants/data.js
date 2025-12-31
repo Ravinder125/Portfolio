@@ -3,18 +3,29 @@ import project2 from '../assets/project/project-2.png'
 
 export const PROJECTS = [
     {
-        title: "Todo Web App",
+        title: "Task Manager Web App",
         href: "https://task-manager-njjo.vercel.app/",
         image: project1,
-        description: "A Person Todo to store your todos for daily tasks",
+        description: "A Web App which helps you to Create, Delete, Update and assign TASKS to users. You can even organize your users",
+        pointList: [
+            `Role-based Functionality: Designed and implemented multi-role access (Admin/User) enabling role
+specific permissions for task creation, editing, assigning users, managing todos, and handling file
+attachments.`,
+            `Modular Frontend with Validation: Built reusable form components using React, integrated React
+Hook For Zod for field-level validation, and applied Tailwind CSS for a clean, responsive UI.`,
+            `Secure Backend & Data Handling: Developed REST APIs using Express.js with JWT authentication,
+protected routes, MongoDB + Mongoose for robust data models (tasks, users, todos, attachments),
+and applied ObjectId validation across endpoints.`
+        ],
         technologies: ["HTML", "TailwindCss", "REACT", "MongoDB", "Express", "Node"],
     },
     {
-        title: "Task Manager Web App",
+        title: "Todo Web App",
         href: "https://react-js-course-pi.vercel.app/",
+        pointList: [],
         image: project2,
-        description: "A Person Todo web app to store your daily todos",
-        technologies: ["HTML", "TailwindCss", "REACT",],
+        description: "A Todo Web App like Task Manager but it's a very small project compares to that.",
+        technologies: ["HTML", "TailwindCss", "REACT", "Local Storage"],
     },
 ]
 
@@ -50,4 +61,4 @@ export const EXPERIENCE = [
     }
 ]
 
-export const HERO_CONTENT = `I’m a MERN Stack Web Developer skilled in building fast, scalable, and user-focused web applications. From creating responsive UIs with React to developing robust APIs with Node.js, Express, and MongoDB, I bring full-stack solutions that deliver performance and reliability.`;
+export const HERO_CONTENT = `I’m a Full Stack Web Developer skilled in building fast, scalable, and user-focused web applications. From creating responsive UIs with React to developing robust APIs with Node.js, Express, and MongoDB, I bring full-stack solutions that deliver performance and reliability.`;
