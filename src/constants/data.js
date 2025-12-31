@@ -10,7 +10,7 @@ export const PROJECTS = [
         technologies: ["HTML", "TailwindCss", "REACT", "MongoDB", "Express", "Node"],
     },
     {
-        title: "Todo Web App",
+        title: "Task Manager Web App",
         href: "https://react-js-course-pi.vercel.app/",
         image: project2,
         description: "A Person Todo web app to store your daily todos",
@@ -20,8 +20,8 @@ export const PROJECTS = [
 
 export const CONTACT = {
     address: "Sonia Vihar, North-East Delhi, Delhi, India",
-    tel: "+91 9625038715",
-    email: "ravinder729080@gmail.com"
+    tel: "+91 9625038714",
+    email: "ravinder729090@gmail.com"
 }
 
 export const EXPERIENCE = [
@@ -35,7 +35,7 @@ export const EXPERIENCE = [
             "Worked on building and maintaining modern, responsive web applications using React.js, Tailwind CSS, and JavaScript. Collaborated with designers and backend developers to deliver seamless user experiences. Focused on performance optimization, clean code practices, and integration of REST APIs into frontend systems.",
         technologies: [
             "React.js",
-            "Next.js (basic)",
+            "Next.js (absic)",
             "JavaScript",
             "Tailwind CSS",
             "REST API",
