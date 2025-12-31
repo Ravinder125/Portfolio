@@ -43,7 +43,7 @@ const Projects = () => {
                                 {project.description}
                             </p>
                             {project.pointList?.length !== 0 && (
-                                <ul className="bg-black/30 p-5 rounded-lg text-sm list-disc mb-3 px-8 ">
+                                <ul className="bg-zinc-950 border border-stone-950 p-5 rounded-lg text-sm list-disc mb-3 px-8 ">
                                     {project.pointList.map(point => {
                                         return <li className="mt-2">{point}</li>
                                     })}
