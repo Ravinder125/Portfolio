@@ -2,12 +2,16 @@ import { Link } from "react-router-dom"
 import logo from '../assets/logo.webp'
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa6"
 import { SiLeetcode } from "react-icons/si"
+import { HugeiconsIcon } from '@hugeicons/react';
+import { FIVERR_SVG } from '../constants/data'
+
+const fiverSvg = `<a href="https://iconscout.com/icons/fiverr" class="text-underline font-size-sm" target="_blank">Fiverr</a> by <a href="https://iconscout.com/contributors/pixel-icons" class="text-underline font-size-sm" target="_blank">Pixel Icons</a>`
 
 const Navbar = () => {
     const navItems = [
         {
             href: "https://www.linkedin.com/in/ravinder-kumar-5080173a3/",
-            label: "LinkeDin",
+            label: "LinkedIn",
             icon: <FaLinkedin />
         },
         {
@@ -21,9 +25,14 @@ const Navbar = () => {
             icon: <SiLeetcode />
         },
         {
-            href: "",
+            href: "https://www.instagram.com/",
             label: "Instagram",
             icon: <FaInstagram />
+        },
+        {
+            href: "https://www.fiverr.com/this_is_rk/convert-figma-to-html-react-or-react-with-api",
+            label: "Fiverr",
+            icon: <span dangerouslySetInnerHTML={{ __html: FIVERR_SVG }} />
         },
     ]
     return (
@@ -33,7 +42,7 @@ const Navbar = () => {
                     <img src={logo} />
                 </Link>
             </div>
-            <div className="m-8 flex items-center justify-center gap-4 sm:gap-8 text-2xl hover:text-gray-100 transition-text duration-300">
+            <div className="m-8 flex items-center justify-center gap-4 sm:gap-8 text-lg xl:text-2xl hover:text-gray-100 transition-text duration-300">
                 {navItems.map((item) => (
                     <div key={item.label}>
                         <Link

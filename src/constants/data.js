@@ -62,3 +62,6 @@ export const EXPERIENCE = [
 ]
 
 export const HERO_CONTENT = `I’m a Full Stack Web Developer skilled in building fast, scalable, and user-focused web applications. From creating responsive UIs with React to developing robust APIs with Node.js, Express, and MongoDB, I bring full-stack solutions that deliver performance and reliability.`;
+
+// Example: Assign a string or SVG markup as needed
+export const FIVERR_SVG = `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="12" fill="#dad2d4"/><text x="50%" y="55%" text-anchor="middle" fill="#000" font-size="16" font-family="Arial" font-weight="bold" dy=".3em">fi</text></svg>`;
